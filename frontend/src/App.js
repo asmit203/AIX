@@ -2,14 +2,6 @@ import './App.css';
 import React from 'react';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-/*install that module via directly running the following command:-
-npm install react-bootstrap-validation --save
-
-or if you are using linux/ubuntu than run following command:-
-sudo npm install react-bootstrap-validation --save 
-
-issue will solve
-*/
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
