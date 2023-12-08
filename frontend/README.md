@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+install module via directly running the following command after bootstrap instalation:-
+npm install react-bootstrap-validation --save
 
 ## Available Scripts
 
