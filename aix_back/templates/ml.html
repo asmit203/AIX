@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Model</title>
+    <link rel="stylesheet" href="{% static 'mlmodel/css/style.css' %}">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <div id="form-container">
+        <div id="sub-container">
+            <div id="form-head">
+                <h2>Universal Prediction Application</h2>
+            </div>
+            <div id="form-card">
+                <form id="predictionForm" method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="button" id="predictButton">Predict</button>
+                </form>
+            </div>
+            <div id="predictionResult"></div>
+        </div>
+    </div>
+
+    <script src="{% static 'mlmodel/js/mlform.js' %}"></script>
+</body>
+</html>

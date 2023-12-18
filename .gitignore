@@ -1,2 +1,4 @@
 node_modules*
-
+aix_back/aix_back/__pycache__/*
+aix_back/user_api/__pycache__/*
+aix_back/user_api/migrations/__pycache__/*
